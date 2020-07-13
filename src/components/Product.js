@@ -17,11 +17,13 @@ const Product = () => {
       </div>
 
       <img src={require('../img/testfacemask.jpg')} alt='something' />
-      <h1>GordianGarmets</h1>
-      <div className='value'>
-        <p>Value:</p>
+      <div className='bottom-pic'>
+        <h1>Mascaire 1</h1>
         <p>$60</p>
+        <p>Size</p>
+        
       </div>
+      
 
 
 

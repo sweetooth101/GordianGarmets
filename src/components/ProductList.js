@@ -5,6 +5,8 @@ import React, { Component } from 'react';
 import Product from './Product'
 import { Link } from 'react-router-dom';
 
+import './general.css'
+
 class ProductList extends Component {
     constructor() {
         super();
@@ -18,14 +20,13 @@ class ProductList extends Component {
     render() {
         return (
             <div className='prodDisplay-wrapper'>
-                <div className='yellow-bg'>
-
-                    <div className='prodDisplayBG'>
-                        <Link className='link-prod' to='/view'> <Product /></Link>
-                        
-
-                    </div>
-                </div>
+                 
+                <Link className='link-prod' to='/view'> <Product /></Link>
+                <Link className='link-prod' to='/view'> <Product /></Link>
+                <Link className='link-prod' to='/view'> <Product /></Link>
+                <Link className='link-prod' to='/view'> <Product /></Link>
+                <Link className='link-prod' to='/view'> <Product /></Link>
+                <Link className='link-prod' to='/view'> <Product /></Link>
 
             </div>
         )
