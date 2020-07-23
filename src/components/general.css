@@ -71,8 +71,48 @@
 
 /*View of Product*/
 
+
+.detail-wrapper{
+    padding-left: 20px;
+}
+
 .view-item{
     display:flex;
     max-width:800px;
     margin:0 auto;
+}
+
+
+.img-item{
+    width:300px;
+}
+
+.item-description{
+    position: relative;
+    top:60px;
+    text-align: left;
+}
+
+.item-description h2{
+    font-size:3.5em;
+}
+
+
+.item-description h1{
+    font-size:2em;
+}
+
+.size{
+    display: flex;
+}
+
+.summary{
+    margin-top:3em;
+    border-top:1px solid lightgrey;
+    padding-top:3em;
+    line-height: 3;
+}
+
+.details{
+    line-height: 3;
 }

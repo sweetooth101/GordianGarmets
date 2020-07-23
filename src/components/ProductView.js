@@ -1,4 +1,5 @@
 import React, { Component } from 'react';
+import Carousel from './helpful/carousel';
 
 
 
@@ -18,11 +19,10 @@ class ProductView extends Component {
         
 
         <div className='imgItem-wrapper'>
-
+           
           <div className='img-item'>
-            <div className='item-img'><img src={require('../img/testfacemask.jpg')} alt='something' /></div>
-            <div className='item-img'><img src={require('../img/testfacemask.jpg')} alt='something' /></div>
-            
+            <Carousel/>
+     
           </div>
 
 
@@ -32,14 +32,14 @@ class ProductView extends Component {
         <div className='detail-wrapper'>
           <div className='item-description'>
 
-            <div className='price-name'>
-              <h2>$ 89.99</h2>
-              <h1>USA Bent Neck Bong</h1>
-            </div>
-            <div className='location'>
-              <h2>South Gate</h2>
-            </div>
+              <h2>Mascaria</h2>
+              <h1>20$</h1>
+              <div className='size'>
+                <h1>Size Adult</h1>
+              </div>
 
+              
+              <button>Buy Now</button>
 
             <div className='summary'>
               This is the classic beaker tube by Maverick Glass. This 18'' tall bong features a 18mm to 14mm removable diffused downstem and comes with a 14mm male bowl. The ice pinch allows you to stack ice for an extra level of cooling. This highly functional bong will be sure to please and may quickly become your daily driver. The glass is 5mm thick. Made by Maverick Glass in California using high quality borosilicate glass.
