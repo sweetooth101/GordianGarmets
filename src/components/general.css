@@ -91,6 +91,7 @@
     position: relative;
     top:60px;
     text-align: left;
+    line-height: 2;
 }
 
 .item-description h2{
