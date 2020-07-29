@@ -2,6 +2,7 @@ import React, { Component } from 'react';
 import Carousel from './helpful/carousel';
 
 
+import './general.css'
 
 class ProductView extends Component {
   constructor() {

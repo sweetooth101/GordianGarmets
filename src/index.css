@@ -60,6 +60,8 @@ body {
   -moz-osx-font-smoothing: grayscale;
 	letter-spacing: 1px;
 	height:100vh;
+	background-color: #fcfbfb;
+
 }
 
 *{
